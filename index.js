@@ -10,9 +10,10 @@
 
 //Remember that computer languages will not add the space character for you so how would you do that manually?
 
-
-
-
+var firstName = "Walter"
+var lastName = "Morrow"
+var fullName = firstName + ' ' + lastName
+console.log (fullName)
 
 
 
@@ -23,7 +24,8 @@
 //Assign luckyNumber to a number of your choice.
 
 //Declare another variable named luckyNumberTimes2 and assign it the value of luckyNumber multiplied by 2.
-
+var luckyNumber = 10
+var luckyNumberTimes2 = 20
 
 
 
@@ -36,10 +38,10 @@
 
 //Booleans
 //Declare a variable named myBool and assign it the value of true.
-
+var myBool = true
 
 //Then, declare another named isEqualTo and assign it the value of strictly comparing luckyNumber and luckyNumberTimes2.
-
+var isEqualto = luckyNumber < luckyNumberTimes2
 
 
 
@@ -66,9 +68,11 @@ factorial(8); // => 40320 (8 * 7 * 6 * 5 * 4 * 3 * 2 * 1)
   */
 
 function factorial(number){
-//CODE BELOW HERE
-
-
+//CODE BELOW HERE 
+var answer = 1;
+for (var i = number; i <= 1; i--){
+answer = answer*i
+}
 
 //CODE ABOVE HERE
 }
@@ -89,7 +93,7 @@ reverseString('Hello, World!'); // => '!dlroW ,olleH'
 
 function reverseString(string){
   //CODE BELOW HERE
-
+ reverseString('Muda Muda')
 
 
   //CODE ABOVE HERE
@@ -109,6 +113,6 @@ var myArray = [1,2,3,4,5]
 arraySum(myArray) => 15
 */
 function arraySum(array){
-   
+  var arraySum [1,2,5,8,9,10]
     
 }
